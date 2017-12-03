@@ -3,7 +3,6 @@ const { app, BrowserWindow, Menu } = electron;
 
 
 app.on('ready', function() {
-  notifier.notify('hi');
   const startWindow = new BrowserWindow({
     width: 300,
     height: 300,
